@@ -1,0 +1,28 @@
+@use "../../utilities/variables/" as v;
+
+.journal-form {
+  width: calc(102vw - 420px);
+  height: 100vh;
+  background-color: v.$color-surface-dark;
+  color: v.$color-on-surface-variant-dark;
+}
+
+.form-container {
+  flex-direction: column;
+  width: 90%;
+  height: 90vh;
+  background-color: v.$color-surface-dark;
+  padding: 20px;
+  margin-left: 44px;
+}
+
+.mood-busy-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.no-active-entry {
+
+  color: v.$color-surface-dark;
+}
